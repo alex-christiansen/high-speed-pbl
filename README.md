@@ -4,6 +4,8 @@
 
 The goal of High-speed PBL is to demostrate the key aspects of Looker's embed SDK that can be modulized and easily implemented by your team. 
 
+This is a new commit
+
 A typical setup might look like this. In this case, a dashboard with an id of `11` is created inside a DOM element with the id `dashboard`. The `dashboard:run:start` and `dashboard:run:complete` events are used to update the state of the embedding window's UI, and a button with an id of `run` is scripted to send a `dashboard:run` message to the dashboard.
 
 ```javascript
